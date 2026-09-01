@@ -1,0 +1,27 @@
+<dashboard version="1.1" theme="light" script="vendor/purify_noamd_001.js,js/ai_markdown_python_002.js" stylesheet="css/ai_markdown_python_002.css">
+  <label>AI Markdown Python</label>
+  <row>
+    <panel>
+      <html>
+        <main id="amp-app" class="amp-app" aria-label="AI Markdown Python workspace">
+          <header class="amp-header"><div><h1>AI Markdown Python</h1><p>Run SPL, convert AI Markdown with Python-Markdown, and render sanitized HTML.</p></div><span>Author: G0TH3R</span></header>
+          <section class="amp-search">
+            <div class="amp-title-row"><h2>Search</h2><span id="amp-status" role="status" aria-live="polite">Loading…</span></div>
+            <label for="amp-query">SPL</label>
+            <textarea id="amp-query" spellcheck="false"></textarea>
+            <small>Bound events before <code>| ai</code>. Cmd/Ctrl+Enter runs. Action-capable commands require confirmation.</small>
+            <div class="amp-controls">
+              <label for="amp-field">Markdown field<input id="amp-field" type="text" value="auto" /></label>
+              <label for="amp-time-preset">Time<select id="amp-time-preset"><option value="last_15m">15m</option><option value="last_60m">60m</option><option value="last_4h">4h</option><option value="last_24h" selected="selected">24h</option><option value="last_7d">7d</option><option value="all_time">All time</option><option value="custom">Custom</option></select></label>
+              <label for="amp-earliest">Earliest<input id="amp-earliest" type="text" value="-24h" /></label>
+              <label for="amp-latest">Latest<input id="amp-latest" type="text" value="now" /></label>
+              <label for="amp-row-cap">Rows<select id="amp-row-cap"><option value="25">25</option><option value="50">50</option><option value="100" selected="selected">100</option><option value="200">200</option></select></label>
+            </div>
+            <div class="amp-actions"><button id="amp-run" type="button" class="amp-primary">Run and render</button><button id="amp-cancel" type="button">Cancel</button></div>
+          </section>
+          <section class="amp-output"><div class="amp-title-row"><h2>Rendered results</h2></div><div id="amp-results" class="amp-results"><div class="amp-empty">Run a search to render Markdown.</div></div></section>
+        </main>
+      </html>
+    </panel>
+  </row>
+</dashboard>

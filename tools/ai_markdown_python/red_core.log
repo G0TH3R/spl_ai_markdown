@@ -1,0 +1,18 @@
+E
+======================================================================
+ERROR: test_auto_field_prefers_ai_result_1_then_plural (tools.ai_markdown_python.test_core.CoreTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/gother/Library/Mobile Documents/com~apple~CloudDocs/10. Projects/splunk-workbench/tools/ai_markdown_python/test_core.py", line 24, in test_auto_field_prefers_ai_result_1_then_plural
+    core = load_core()
+  File "/Users/gother/Library/Mobile Documents/com~apple~CloudDocs/10. Projects/splunk-workbench/tools/ai_markdown_python/test_core.py", line 18, in load_core
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 982, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1039, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/gother/Library/Mobile Documents/com~apple~CloudDocs/10. Projects/splunk-workbench/apps/spl_ai_markdown_python/bin/ai_markdown_core.py'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)

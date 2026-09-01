@@ -1,0 +1,7 @@
+apps/_packages/
+apps/_reports/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+._*
